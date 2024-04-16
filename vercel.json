@@ -2,7 +2,7 @@
     "builds":[{
         "src" : "passionis/wsgi.py",
         "use" : "@vercel/python",
-        "config" : {"maxLambdaSize" : "15mb", "rumtime":"python3.11" }
+        "config" : {"maxLambdaSize" : "15mb", "rumtime":"python3.10" }
     }],
     "routes":[{
         "src":"/(.*)",
