@@ -1,0 +1,8 @@
+
+{
+  "name": "passionis",
+  "version": "1.0.0",
+  "engines": {
+    "python": "3.10.x"
+  }
+}
