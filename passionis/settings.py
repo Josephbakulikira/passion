@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-3a$r9_ka)(tiok8(*6$0n!lat#sa--4sb9b!#cl=y!ilgi78#j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '127.0.0.1:8000', 'localhost','.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app','127.0.0.1', '127.0.0.1:8000', 'localhost']
 
 
 # Application definition
@@ -120,8 +120,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [BASE_DIR / 'static']
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_DIRS = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles_build", "static") 
 
 TAILWIND_APP_NAME = 'theme'
 
