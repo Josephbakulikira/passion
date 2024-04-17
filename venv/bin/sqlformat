@@ -1,4 +1,4 @@
-#!/Users/joe/Desktop/passionis/passionis/venv/bin/python3
+#!/Users/joe/Desktop/passionis/passionis/venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
